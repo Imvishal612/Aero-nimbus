@@ -1,0 +1,128 @@
+*{
+  margin: 0; 
+  padding: 0;
+  font-family: Poppins,Sans-Serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: grey;
+}
+.card{
+ width: 100%;
+/* max-width: 470px;  */
+ background-image: linear-gradient(
+  40deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(221deg 91% 23%) 5%,
+  hsl(214deg 88% 24%) 10%,
+  hsl(209deg 86% 26%) 15%,
+  hsl(206deg 85% 28%) 20%,
+  hsl(204deg 84% 29%) 25%,
+  hsl(202deg 83% 30%) 30%,
+  hsl(200deg 83% 32%) 35%,
+  hsl(199deg 82% 33%) 41%,
+  hsl(198deg 82% 34%) 46%,
+  hsl(197deg 81% 35%) 52%,
+  hsl(196deg 81% 37%) 57%,
+  hsl(195deg 81% 38%) 63%,
+  hsl(194deg 81% 39%) 69%,
+  hsl(194deg 80% 40%) 76%,
+  hsl(193deg 80% 41%) 83%,
+  hsl(193deg 80% 42%) 91%,
+  hsl(192deg 80% 43%) 100%
+);
+color: white;
+margin: 100px,auto,0;
+border-radius:20px ;
+padding: 40px 35px;
+text-align: center;
+}
+.search{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space;
+}
+.search input{
+  border: 0;
+  outline: 0;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius:30px ;
+  flex: 1;
+  margin-right:16px ;
+  font-size: 18px;
+}
+.search button{
+  
+  border: 0;
+  outline: 0;
+  height: 60px;
+  width:90px;
+  border-radius: 25%;
+  cursor: pointer;
+  background-color: transparent;
+ /* background-image: linear-gradient(
+  40deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(221deg 91% 23%) 5%,
+  hsl(214deg 88% 24%) 10%,
+  hsl(209deg 86% 26%) 15%,
+  hsl(206deg 85% 28%) 20%,
+  hsl(204deg 84% 29%) 25%,
+  hsl(202deg 83% 30%) 30%,
+  hsl(200deg 83% 32%) 35%,
+  hsl(199deg 82% 33%) 41%,
+  hsl(198deg 82% 34%) 46%,
+  hsl(197deg 81% 35%) 52%,
+  hsl(196deg 81% 37%) 57%,
+  hsl(195deg 81% 38%) 63%,
+  hsl(194deg 81% 39%) 69%,
+  hsl(194deg 80% 40%) 76%,
+  hsl(193deg 80% 41%) 83%,
+  hsl(193deg 80% 42%) 91%,
+  hsl(192deg 80% 43%) 100%
+); */
+position: relative;
+left: -17px;
+}
+.search button img{
+  
+  width: 26px;
+}
+.weather-icon{
+  width: 170px;
+  margin-top: 30px;
+}
+.weather h1{
+  font-size: 80px;
+  font-weight: 500;
+}
+.weather h2{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.col{
+  display: flex;
+  align-items: center;
+  text-align:left;
+}
+.col img{
+  width:40px;
+  margin-right: 10px;
+}
+.humidity,.wind{
+ margin-top: -6px;
+ font-size: 28px;
+}
+.weather{
+  display: none;
+}
